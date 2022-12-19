@@ -11,3 +11,110 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  background-color: aliceblue;
+}
+
+header .container{
+  padding: 20px;
+  margin: 20px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+
+header a{
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.pages{
+  display: flex;
+  flex-direction: row;
+}
+
+.products-container{
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+  background-color: azure;
+  border: 2px solid gainsboro;
+  width: 100vw;
+}
+
+.products-container header{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.products{
+  background-color: aliceblue;
+  border: 2px solid blanchedalmond;
+  border-radius: 10px;
+  padding: 2em;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+/* Product Details */
+
+.product-details h3{
+  color: green;
+}
+.product-details{
+  display: inline;
+  text-align: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+.outofstock{
+  background: rgb(209, 157, 98) !important;
+}
+
+.outofstock-product{
+  color: red;
+}
+
+/* Product Form */
+
+
+/* Product Menu */
+.menu-product{
+  margin: 3em;
+  padding: 3em;
+}
+
+/* home page */
+.home-page{
+  background-color: aliceblue;
+  margin: 10em;
+  padding: 2em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* about page */
+.about-page{
+  background-color: aliceblue;
+  margin: 10em;
+  padding: 2em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* contact page */
+.contact-page{
+  background-color: aliceblue;
+  margin: 10em;
+  padding: 2em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
